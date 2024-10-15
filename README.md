@@ -14,7 +14,7 @@ This repository contains my personal configurations for NixOS, organized and man
 ## 📁 Repository Structure
 
 The following structure represents my NixOS configuration files, organized into relevant directories for modularity and maintainability:
-
+```
 ├── home-manager # Home-manager configurations for user environments 
 ├── modules # Custom NixOS modules 
 ├── nixos # System-wide NixOS configurations 
@@ -23,7 +23,7 @@ The following structure represents my NixOS configuration files, organized into 
 ├── flake.lock # Lock file for Nix Flakes (ensures reproducibility) 
 ├── flake.nix # Nix Flakes configuration 
 └── shell.nix # Development shell setup
-
+```
 
 ### Key Files and Directories
 
