@@ -126,6 +126,7 @@
     telegram-desktop
     git
     libreoffice-fresh
+    firefox
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
