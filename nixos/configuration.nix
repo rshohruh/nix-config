@@ -121,7 +121,6 @@
   environment.systemPackages = with pkgs; [
   #  vim # Do not forget to add an editor to edit configuration.nix! The Nano editor is also installed by default.
   #  wget
-    zed-editor
     vscode
     telegram-desktop
     git
@@ -132,7 +131,7 @@
     gnome.gnome-tweaks
     fastfetch
     btop
-    zed-editor
+    unstable.zed-editor
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
