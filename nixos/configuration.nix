@@ -129,6 +129,9 @@
     firefox
     google-chrome
     gcc
+    gnome.gnome-tweaks
+    fastfetch
+    btop
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
