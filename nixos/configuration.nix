@@ -127,6 +127,8 @@
     git
     libreoffice-fresh
     firefox
+    google-chrome
+    gcc
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
