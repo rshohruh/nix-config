@@ -1,0 +1,3 @@
+{
+  rshohruh = import ./rshohruh.nix;
+}
