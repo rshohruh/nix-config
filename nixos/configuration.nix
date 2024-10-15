@@ -121,17 +121,6 @@
   environment.systemPackages = with pkgs; [
   #  vim # Do not forget to add an editor to edit configuration.nix! The Nano editor is also installed by default.
   #  wget
-    vscode
-    telegram-desktop
-    git
-    libreoffice-fresh
-    firefox
-    google-chrome
-    gcc
-    gnome.gnome-tweaks
-    fastfetch
-    btop
-    unstable.zed-editor
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
