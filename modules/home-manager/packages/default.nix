@@ -33,8 +33,8 @@
 
       # Database tools
       postgresql
-      redis
-      mongodb
+      # redis
+      # mongodb
       sqlite
 
       # Containers and Virtualization
@@ -43,7 +43,7 @@
 
       # Networking tools
       nmap
-      openvpn
+      # openvpn
 
       # Archive tools
       unzip
