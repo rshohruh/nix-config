@@ -5,7 +5,7 @@
 
   # Media tools
   ffmpeg
-
+  celluloid
 
   gnupg
   fastfetch
@@ -55,6 +55,7 @@
   mtr
   fzf
   mc
+  zoom-us
 
 ]) ++ (with pkgs.unsable; [
   docker-compose
