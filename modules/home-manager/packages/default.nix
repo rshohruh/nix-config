@@ -1,63 +1,72 @@
-{ pkgs, ... }: ( with pkgs; [
-  # Downloader
-  aria2
-  wget
+{ config
+, pkgs
+, lib
+, ...
+}: {
+  config = {
+    # Packages to be installed on my machine
+    home.packages = with pkgs; [
+      # Downloader
+      aria2
+      wget
 
-  # Media tools
-  ffmpeg
-  celluloid
+      # Media tools
+      ffmpeg
+      celluloid
 
-  gnupg
-  fastfetch
-  
-  # Development tools
-  gcc
-  gdb
-  make
-  cmake
-  python3
-  nodejs
+      gnupg
+      fastfetch
+      
+      # Development tools
+      gcc
+      gdb
+      make
+      cmake
+      python3
+      nodejs
 
-  # Productivity tools
-  libreoffice
-  sublime-text
-  gimp
-  chrome
+      # Productivity tools
+      libreoffice
+      sublime-text
+      gimp
+      chrome
 
-  # Database tools
-  postgresql
-  redis
-  mongodb
-  sqlite
+      # Database tools
+      postgresql
+      redis
+      mongodb
+      sqlite
 
-  # Containers and Virtualization
-  docker
-  virtualbox
+      # Containers and Virtualization
+      docker
+      virtualbox
 
-  # Networking tools
-  nmap
-  vpnclient
+      # Networking tools
+      nmap
+      vpnclient
 
-  # Archive tools
-  unzip
-  p7zip
-  tar
-  xz
-  gzip
-  bzip2
-  rar
-  pigz
+      # Archive tools
+      unzip
+      p7zip
+      tar
+      xz
+      gzip
+      bzip2
+      rar
+      pigz
 
-  # Others
-  rigrep
-  curl
-  tree
-  mtr
-  fzf
-  mc
-  zoom-us
-
-]) ++ (with pkgs.unsable; [
-  docker-compose
-  vscode
-])
+      # Others
+      rigrep
+      curl
+      tree
+      mtr
+      fzf
+      mc
+      zoom-us
+      
+      # Unstable packages
+      unstable.vscode
+      unstable.docker-compose
+    ]
+  };
+}
