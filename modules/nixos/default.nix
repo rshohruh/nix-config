@@ -3,6 +3,9 @@
 {
   # List your module files here
   # my-module = import ./my-module.nix;
+  desktop = import ./desktop;
+  fonts = import ./fonts;
+  nixpkgs = import ./nixpkgs;
+  sound = import ./sound;
   users = import ./users;
-  ssh = import ./ssh.nix;
 }

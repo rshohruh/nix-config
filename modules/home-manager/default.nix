@@ -3,5 +3,6 @@
 {
   # List your module files here
   # my-module = import ./my-module.nix;
-  zsh = import ./zsh;
+  packages = import ./packages;
+  nixpkgs = import ./nixpkgs;
 }
