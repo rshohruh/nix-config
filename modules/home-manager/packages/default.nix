@@ -27,7 +27,7 @@
 
       # Productivity tools
       libreoffice
-      sublime4
+      # sublime4
       gimp
       google-chrome
 
@@ -62,7 +62,8 @@
       fzf
       mc
       zoom-us
-      
+      github-desktop
+      telegram-desktop
       # Unstable packages
       unstable.vscode
       unstable.docker-compose
