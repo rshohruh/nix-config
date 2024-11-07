@@ -20,16 +20,16 @@
       # Development tools
       gcc
       gdb
-      make
+      gnumake
       cmake
       python3
       nodejs
 
       # Productivity tools
       libreoffice
-      sublime-text
+      sublime4
       gimp
-      chrome
+      google-chrome
 
       # Database tools
       postgresql
@@ -43,12 +43,12 @@
 
       # Networking tools
       nmap
-      vpnclient
+      openvpn
 
       # Archive tools
       unzip
       p7zip
-      tar
+      gnutar
       xz
       gzip
       bzip2
@@ -56,7 +56,6 @@
       pigz
 
       # Others
-      rigrep
       curl
       tree
       mtr
@@ -67,6 +66,6 @@
       # Unstable packages
       unstable.vscode
       unstable.docker-compose
-    ]
+    ];
   };
 }
