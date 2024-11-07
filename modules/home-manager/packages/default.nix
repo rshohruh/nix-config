@@ -64,6 +64,8 @@
       zoom-us
       github-desktop
       telegram-desktop
+      btop
+
       # Unstable packages
       unstable.vscode
       unstable.docker-compose
