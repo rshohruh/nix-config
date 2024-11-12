@@ -8,4 +8,5 @@
   nixpkgs = import ./nixpkgs;
   sound = import ./sound;
   users = import ./users;
+  fingerprint = import ./fingerprint;
 }

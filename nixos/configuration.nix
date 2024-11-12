@@ -9,12 +9,11 @@
   ...
 }: {
   imports = [
-    outputs.nixosModules.desktop.gnome
+    outputs.nixosModules.desktop.gnome-wayland
     outputs.nixosModules.fonts
     outputs.nixosModules.nixpkgs
     outputs.nixosModules.sound
     outputs.nixosModules.users.rshohruh
-  
     # ./users.nix
     ./hardware-configuration.nix
   ];
