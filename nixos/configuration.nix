@@ -9,6 +9,7 @@
   ...
 }: {
   imports = [
+    outputs.nixosModules.postgres
     outputs.nixosModules.desktop.gnome
     outputs.nixosModules.fonts
     outputs.nixosModules.nixpkgs

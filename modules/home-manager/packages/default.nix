@@ -32,9 +32,6 @@
       google-chrome
 
       # Database tools
-      postgresql
-      # redis
-      # mongodb
       sqlite
 
       # Containers and Virtualization

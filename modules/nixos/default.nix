@@ -9,4 +9,5 @@
   sound = import ./sound;
   users = import ./users;
   fingerprint = import ./fingerprint;
+  postgres = import ./postgres;
 }
