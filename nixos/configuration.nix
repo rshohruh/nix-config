@@ -9,7 +9,7 @@
   ...
 }: {
   imports = [
-    outputs.nixosModules.desktop.gnome-wayland
+    outputs.nixosModules.desktop.gnome
     outputs.nixosModules.fonts
     outputs.nixosModules.nixpkgs
     outputs.nixosModules.sound
