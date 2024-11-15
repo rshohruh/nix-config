@@ -30,6 +30,8 @@
       # sublime4
       gimp
       google-chrome
+      xournalpp
+      texliveSmall
 
       # Database tools
       sqlite
