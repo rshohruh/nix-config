@@ -10,7 +10,7 @@
 }: {
   imports = [
     outputs.nixosModules.postgres
-    outputs.nixosModules.desktop.gnome
+    outputs.nixosModules.desktop.gnome-wayland
     outputs.nixosModules.fonts
     outputs.nixosModules.nixpkgs
     outputs.nixosModules.sound

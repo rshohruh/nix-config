@@ -64,9 +64,7 @@
       github-desktop
       telegram-desktop
       btop
-
-      steam
-
+      
       # Unstable packages
       unstable.vscode
       unstable.docker-compose
