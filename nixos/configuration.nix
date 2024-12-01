@@ -10,7 +10,7 @@
 }: {
   imports = [
     outputs.nixosModules.postgres
-    outputs.nixosModules.desktop.gnome-wayland
+    outputs.nixosModules.desktop.gnome
     outputs.nixosModules.fonts
     outputs.nixosModules.nixpkgs
     outputs.nixosModules.sound
@@ -31,5 +31,5 @@
   virtualisation.docker.enable = true;
 
   # https://nixos.wiki/wiki/FAQ/When_do_I_update_stateVersion
-  system.stateVersion = "24.05";
+  system.stateVersion = "24.11";
 }
