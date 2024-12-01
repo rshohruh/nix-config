@@ -19,6 +19,7 @@
       
       # Development tools
       gcc
+      clang-tools
       gdb
       gnumake
       cmake
@@ -68,6 +69,12 @@
       # Unstable packages
       unstable.vscode
       unstable.docker-compose
+      unstable.zed-editor
+
+      # Nix essentials
+      nixd
+      nil
+      nixfmt
     ];
   };
 }

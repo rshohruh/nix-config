@@ -21,7 +21,6 @@
 
   programs.home-manager.enable = true;
   programs.git.enable = true;
-  programs.steam.enable = true;
 
   systemd.user.startServices = "sd-switch";
 
