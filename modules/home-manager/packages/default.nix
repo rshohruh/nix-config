@@ -16,7 +16,7 @@
 
       gnupg
       fastfetch
-      
+
       # Development tools
       gcc
       clang-tools
@@ -25,6 +25,7 @@
       cmake
       python3
       nodejs
+      ghc
 
       # Productivity tools
       libreoffice
@@ -65,16 +66,20 @@
       github-desktop
       telegram-desktop
       btop
-      
+
       # Unstable packages
       unstable.vscode
       unstable.docker-compose
       unstable.zed-editor
 
+
       # Nix essentials
       nixd
       nil
-      nixfmt
+      nixfmt-classic
+      just
+
+      postman
     ];
   };
 }

@@ -22,9 +22,9 @@
   # Bootloader
   boot.loader.systemd-boot.enable = true;
   boot.loader.efi.canTouchEfiVariables = true;
-
+  environment.systemPackages = [ pkgs.linux-firmware ];
   networking.networkmanager.enable = true;
-  
+
   time.timeZone = "Asia/Tashkent";
 
   networking.hostName = "laptop";
